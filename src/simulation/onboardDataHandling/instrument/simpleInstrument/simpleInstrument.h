@@ -30,7 +30,7 @@ public:
     SimpleInstrument();
     ~SimpleInstrument();
 
-    BSKLogger bskLogger;    //!< -- BSK Logging
+    BSKLogger bskLogger;            //!< -- BSK Logging instance
 
 private:
     void evaluateDataModel(DataNodeUsageMsgPayload *dataUsageMsg, double currentTime); //!< Sets the name and baud rate for the data in the output message.
